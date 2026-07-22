@@ -13,8 +13,8 @@ import { SparkleField } from './components/sparkle-field'
 
 // Formulario de confirmación de asistencia (definido en .env como PUBLIC_SURVEY_BIRTHDAY_URL).
 const FORM_ASISTO = import.meta.env.PUBLIC_SURVEY_BIRTHDAY_URL
-// TODO: reemplazar por la segunda URL del formulario "No voy a poder ir".
-const FORM_NO_ASISTO = 'https://forms.gle/REEMPLAZAR-NO-VOY'
+// Formulario para quienes no asisten (definido en .env como PUBLIC_NOSURVEY_BIRTHDAY_URL).
+const FORM_NO_ASISTO = import.meta.env.PUBLIC_NOSURVEY_BIRTHDAY_URL
 
 const details = [
   {
